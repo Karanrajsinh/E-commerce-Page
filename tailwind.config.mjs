@@ -8,8 +8,14 @@ export default {
   theme: {
     extend: {
       colors: {
-        background: "var(--background)",
-        foreground: "var(--foreground)",
+        primary: 'var(--primary)',
+        secondary: 'var(--secondary)',
+        textGray1: 'var(--text-gray-1)',
+        textGray2: 'var(--text-gray-2)',
+        noStock: 'var(--out-of-stock)',
+        borderDefault: 'var(--border-default)',
+        borderActive : 'var(--border-active)',
+        divider : 'var(--divider)'
       },
     },
   },
